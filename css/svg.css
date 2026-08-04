@@ -415,3 +415,54 @@ button:before {
 button:hover:before {
   transform: translateX(15em);
 }
+@media screen and (max-width: 768px){
+
+    .stage{
+        width: 100%;
+        padding: 16px;
+    }
+
+    .title{
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .svg{
+        width: 60%;
+        margin: auto;
+    }
+
+    .button{
+        --h-button: 42px;
+        --w-button: 90px;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+
+    .inner{
+        font-size: 14px;
+    }
+
+    button{
+        font-size: 13px;
+        padding: 0.6em 2em;
+    }
+
+}
+
+
+@media screen and (max-width: 420px){
+
+    .stage{
+        padding: 10px;
+    }
+
+    .button{
+        padding: 8px 12px;
+    }
+
+    button{
+        width: 100%;
+    }
+
+}

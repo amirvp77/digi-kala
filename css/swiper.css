@@ -50,3 +50,40 @@
       stroke-dasharray: 125.6;
       transform: rotate(-90deg);
     }
+    @media screen and (max-width: 768px){
+
+    .swiper{
+        width: 100%;
+        height: 220px;
+    }
+
+    .swiper-slide{
+        font-size: 14px;
+    }
+
+    .swiper-slide img{
+        object-fit: cover;
+    }
+
+    .autoplay-progress{
+        width: 35px;
+        height: 35px;
+        right: 10px;
+        bottom: 10px;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .swiper{
+        height: 160px;
+    }
+
+    .autoplay-progress{
+        width: 30px;
+        height: 30px;
+    }
+
+}

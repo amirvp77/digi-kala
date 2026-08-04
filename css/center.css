@@ -239,3 +239,105 @@
     border-radius: 18px;
     /* cursor: pointer; */
 }
+@media screen and (max-width: 768px){
+
+    .slider{
+        height: auto;
+    }
+
+    .slider .box{
+        height: auto;
+        padding: 10px;
+        gap: 10px;
+    }
+
+    .slider .box .box-1{
+        width: 60px;
+        height: 60px;
+    }
+
+    .slider .dir{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        padding: 15px 0;
+    }
+
+    .dir-text{
+        width: 90%;
+        height: auto;
+        padding: 10px;
+    }
+
+    .slider .dir .dir-1{
+        width: 90%;
+        height: 180px;
+    }
+
+
+    .story-box{
+        width: 95%;
+        height: auto;
+        overflow-x: auto;
+        justify-content: flex-start;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .story{
+        flex-shrink: 0;
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .clay{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .clay .clay-1{
+        width: 100%;
+        height: auto;
+    }
+
+
+    .link{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        padding: 15px 0;
+    }
+
+    .link .rast,
+    .link .chap{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .link .rast .img-shope{
+        width: 50px;
+        margin-top: 20px;
+    }
+
+    .link .rast a{
+        margin-top: 35px;
+    }
+
+
+    .two{
+        width: 95%;
+        height: auto;
+        flex-direction: column;
+    }
+
+    .two .twin{
+        width: 100%;
+    }
+
+}

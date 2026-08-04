@@ -177,3 +177,89 @@
     border-bottom: 3px solid rgb(167, 16, 16);
         
 }
+@media screen and (max-width: 768px){
+
+    .heder .top{
+        height: 35px;
+    }
+
+    .heder .center{
+        height: auto;
+        flex-direction: column;
+        padding: 10px 0;
+        gap: 15px;
+    }
+
+    .heder .center .right{
+        width: 95%;
+        height: auto;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .heder .center .right .logo figure img{
+        width: 120px;
+    }
+
+    .heder .center .search{
+        width: 100%;
+    }
+
+    .heder .center .search input{
+        width: 90%;
+        height: 35px;
+    }
+
+    .heder .center .left{
+        width: 100%;
+        height: auto;
+        justify-content: center;
+    }
+
+    .heder .center .left .login{
+        width: 120px;
+        height: 45px;
+    }
+
+    .heder .bottom{
+        height: auto;
+        overflow-x: auto;
+        padding: 10px;
+    }
+
+    .heder .bottom .items{
+        width: max-content;
+        gap: 15px;
+    }
+
+    .heder .bottom .items .item{
+        white-space: nowrap;
+    }
+
+    .heder .bottom .items .item .subMenu{
+        display: none !important;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .heder .center .right{
+        flex-direction: column;
+    }
+
+    .heder .center .right .logo figure img{
+        width: 100px;
+    }
+
+    .heder .center .left .login{
+        width: 110px;
+    }
+
+    .heder .bottom .items{
+        gap: 10px;
+        font-size: 13px;
+    }
+
+}

@@ -116,3 +116,93 @@
 .submit{
     width: 80px;
 }
+@media screen and (max-width: 768px){
+
+    #footer{
+        padding: 60px 0 20px;
+    }
+
+    .topFother{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .rightFother{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .idFother{
+        margin: 5px;
+        width: 130px;
+    }
+
+    .digiFother img{
+        width: 180px;
+    }
+
+    .centerFother{
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .addres{
+        height: auto;
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .addresMore{
+        width: 90%;
+        text-align: center;
+    }
+
+    .addresMore .svg{
+        justify-content: center;
+    }
+
+    .appDigi{
+        width: 95%;
+        height: auto;
+        padding: 15px 0;
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .appDigi .rightDigi a{
+        width: 100%;
+        margin: 0;
+    }
+
+    .appDigi .leftDigi{
+        width: 90%;
+        justify-content: center;
+    }
+
+    .timer{
+        width: 30%;
+    }
+
+}
+
+
+@media screen and (max-width: 480px){
+
+    .rightFother{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .centerFother{
+        flex-direction: column;
+    }
+
+    .timer{
+        width: 40%;
+    }
+
+}
