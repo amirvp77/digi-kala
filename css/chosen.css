@@ -1,0 +1,43 @@
+.chosen{
+    width: 90%;
+    height: 400px;
+    margin: 20px auto;
+    /* background-color: green; */
+    border-radius: 12px;
+    display: flex;
+    border: 1px solid gray;
+    justify-content:space-between
+}
+.chosen .chosen-item{
+    width: 25%;
+    /* background-color: blueviolet; */
+}
+.chosen span{
+    border: 1px solid gray;
+}
+.chosen .chosen-item .chosen-text{
+    padding: 10px;
+}
+.chosen .chosen-item .chosen-text p{
+    margin-top: 7px;
+    color: gray;
+}
+.chosen .chosen-item .chosen-image{
+    display: flex;
+    margin: 20px auto;
+    
+}
+.chosen .chosen-item .chosen-image img{
+    width: 35%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+.chosen .chosen-item .more{
+    width: 100%;
+    /* background-color: aqua; */
+    text-align: center;
+}
+.chosen .chosen-item .more a{
+    text-decoration: none;
+    color: rgb(6, 54, 187);
+}

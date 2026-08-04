@@ -1,0 +1,241 @@
+.slider{
+    width: 100%;
+    height: 400px;
+    /* background-color: blue; */
+}
+.slider .box{
+    width: 100%;
+    height: 100px;
+    /* background-color: green; */
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+.slider .box .box-1{
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.slider .box .box-1 img{
+    width: 100%;
+}
+.slider .dir{
+    width: 80%;
+    height: 220px;
+    background-color: red;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 20px auto;
+    justify-content: space-around;
+    align-items: center;
+    gap: 12px;
+    border-radius: 12px;
+    border: 1px solid black;
+
+}
+.dir-text{
+    width: 220px;
+    height: 220px;
+    /* margin-left: 148px; */
+    background-color: white;
+    text-align: center;
+     border: 1px solid black;
+
+    /* border-radius: 12px; */
+}
+.dir-text p{
+    margin-top: 10px;
+}
+
+.slider .dir .dir-1{
+    width: 200px;
+    height: 180px;
+    background-color: aqua;
+    border-radius: 12px;
+    border: 1px solid black;
+}
+.slider .dir .dir-1 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    background-color: aqua;
+}
+
+.story-box{
+    width: 80%;
+    margin: 0px auto;
+    height: 160px;
+    /* background-color: rgb(87, 17, 112); */
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    /* box-shadow: 0 0 4px 0 gray; */
+}
+
+.story{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 2px solid blueviolet;
+    gap: 17px;
+    margin-top: 20px;
+    text-align: center;
+}
+.story img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+
+.story-two{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    /* border: 1px solid blueviolet; */
+    gap: 17px;
+    margin-top: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+.story-two img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    /* border: 1px solid white; */
+}
+
+
+.clay{
+    width: 90%;
+    height: 250px;
+    margin: 20px auto;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    gap: 10px;
+}
+.clay .clay-1{
+    width: 330PX;
+    height: 200PX;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.clay .clay-1 img{
+    width: 100%;
+    border-radius: 12px;
+    /* cursor: pointer; */
+}
+.link{
+    width: 90%;
+    height: 110px;
+    margin: 20px auto;
+    border-radius: 12px;
+    background-color: rgb(224, 218, 218);
+    display: flex;
+}
+.link .rast{
+    width: 40%;
+    /* background-color: aqua; */
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    /* justify-content: space-between; */
+}
+.link .rast .img-shope{
+   width: 60px;
+   margin-top: 30px;
+   cursor: pointer;
+}
+.link .rast .img-shope img{
+    width: 100%;
+    cursor: pointer;
+}
+.link .rast a{
+    margin-top: 46px;
+    text-decoration: none;
+    color: white;
+}
+.link .rast .tf{
+    margin-top: 40px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    background-color: greenyellow;
+    color: black;
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+.link .chap{
+    width: 60%;
+    /* background-color: red; */
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.link .chap .shope{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.link .chap .shope img{
+    width: 100%;
+    border-radius: 50%;
+}
+.link .chap .border{
+    margin-top: 33px;
+    width: 130px;
+    height: 40px;
+    padding: 10px;
+    background-color: azure;
+    color: rgb(6, 167, 41);
+    text-align: center;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.two{
+    width: 90%;
+    height: 300px;
+    margin: 10px auto;
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    /* cursor: pointer; */
+}
+.two .twin{
+    width: 49%;
+    /* height: 270px; */
+    /* background-color: red; */
+    border-radius: 18px;
+    cursor: pointer;
+}
+.two .twin img{
+    width: 100%;
+    border-radius: 18px;
+    /* cursor: pointer; */
+}

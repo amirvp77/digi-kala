@@ -1,0 +1,179 @@
+    .heder{
+        width: 100%;
+        /* height: 200px; */
+        /* background-color: blue; */
+        box-shadow: 0 0 4px 0 gray;
+    }
+    .heder .top{
+        width: 100%;
+        height: 55px;
+        /* background-color: palevioletred; */
+    }
+    .top figure img{
+        width: 100%;
+        
+    }
+    .heder .center{
+        width: 100%;
+        height: 80px;
+        /* background-color: brown; */
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .heder .center .right{
+        width: 63%;
+        height: 80px;
+        /* background-color: black; */
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: right;
+        align-items: center;
+        gap: 30px;
+    }
+    .heder .center .right .logo figure img{
+        width: 150px;
+    }
+    .heder .center .search input{
+        width: 700px;
+        line-height: 30px;
+        background-color: rgb(251, 247, 247);
+        border-radius: 8px;
+        border: 1px solid rgb(0, 0, 0);
+        padding: 0px 16px;
+    }
+    .heder .center .search input .fa-solid{
+        font-size: 30px;
+        color: aliceblue;
+    }
+   .heder .center .left{
+    width: 19%;
+    height: 80px;
+    /* background-color: coral; */
+    padding: 6px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 12px;
+    align-items: center;
+   }
+   .heder .center .left .zang{
+    width: 50px;
+    height: 50px;
+    /* background-color: blueviolet; */
+    border-radius: 4px;
+   }
+   .heder .center .left .login{
+    width: 140px;
+    border-radius: 4px;
+    height: 50px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid rgb(42, 40, 40);
+    background-color: aliceblue;
+    padding-top: 12px;
+    
+}
+.heder .center .left .login a{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: none;
+    /* align-items: center; */
+    text-align: center;
+    color: black;
+}
+   .heder .center .left .span{
+    width: 1px;
+    height: 50px;
+    background-color: black;
+    border-radius: 4px;
+   }
+   .heder .center .left .shop{
+    width: 50px;
+    height: 50px;
+    /* background-color: yellow; */
+    border-radius: 4px;
+   }
+   .heder .bottom{
+        width:100% ;
+        height: 40px;
+        /* background-color: aqua; */
+        padding: 0px 16px;
+   }
+   .heder .bottom .navigation{
+    height: 100%;
+   }
+   .heder .bottom .nav{
+    height: 100%;
+   }
+   .heder .bottom .navRight{
+    height: 100%;
+    position: relative;
+   }
+   .heder .bottom .items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    list-style: none;
+    align-items: center;
+    height: 100%;
+    gap: 20px;
+   }
+   .heder .bottom .items .item{
+    height: 100%;
+    /* background-color: goldenrod; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+   }
+   .heder .bottom .items .item .subMenu{
+    width: 70%;
+    height: 414px;
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    z-index: 9999999;
+    display: none;
+    border-radius: 20px;
+}
+    .heder .bottom .items .item .subMenu .subItems{
+         width: 15%;
+         height: 100%;
+         background-color: white;
+         list-style: none;
+    }
+    .heder .bottom .items .item .subMenu .subItems .subItem{
+        width: 100%;
+        height: 50px;
+        background-color: whitesmoke;
+        margin-bottom: 2px;
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
+    .heder .bottom .items .item .subMenu .subItems .subItem .leftSub{
+        width: 15%;
+        height: 100%;
+        /* background-color: steelblue; */
+        position: absolute;
+        top: 0px;
+    }
+
+    .heder .bottom .items .item:hover .subMenu{
+        display: block;
+        text-align: center;
+        text-decoration: none;
+    }
+    .left .svg{
+        width: 20%;
+    }
+
+
+    .heder .bottom .items .item .subMenu  .subItem:hover{
+        background-color: white;
+        border-bottom: 1px solid red;
+    }
+    .heder .bottom .items .item-text:hover {
+    border-bottom: 3px solid rgb(167, 16, 16);
+        
+}
