@@ -1,69 +1,72 @@
 # 🛒 Digi Kala
 
-A responsive e-commerce website inspired by DigiKala, created as a frontend development project.
+یک وب‌سایت فروشگاهی واکنش‌گرا با الهام از دیجی‌کالا که به‌عنوان یک پروژه برای تمرین و توسعه مهارت‌های فرانت‌اند ساخته شده است.
 
-## 🚀 Live Demo
+## 🚀 پیش‌نمایش آنلاین
 
-🌐 **[View Live Demo](https://digi-kala.pages.dev/)**
+🌐 **[مشاهده پروژه Digi Kala](https://digi-kala.pages.dev/)**
 
-## 🛠️ Technologies
+## 🛠️ تکنولوژی‌های استفاده‌شده
 
-* HTML5
-* CSS3
-* JavaScript
+- HTML5
+- CSS3
+- JavaScript
 
-## ✨ Features
+## ✨ امکانات پروژه
 
-* 📱 Fully responsive design
-* 🛍️ E-commerce user interface
-* 📦 Product sections
-* 🗂️ Product categories
-* 🎨 Modern and clean UI
-* 📱 Mobile-friendly layout
-* 💻 Desktop-friendly layout
-* ⚡ Interactive JavaScript components
+- 📱 طراحی واکنش‌گرا برای موبایل و دسکتاپ
+- 🛍️ رابط کاربری فروشگاه اینترنتی
+- 📦 بخش‌های مختلف نمایش محصولات
+- 🗂️ دسته‌بندی محصولات
+- 🎨 طراحی رابط کاربری مدرن و ساده
+- 📱 سازگاری با صفحه‌نمایش‌های موبایل
+- 💻 نمایش مناسب در دسکتاپ
+- ⚡ استفاده از JavaScript برای ایجاد تعامل در صفحه
 
-## 📸 Preview
+## 📸 پیش‌نمایش پروژه
 
-The project is available online through the Live Demo link above.
+برای مشاهده ظاهر و عملکرد پروژه، از لینک دموی آنلاین در بخش بالا استفاده کنید.
 
-## 🎯 Project Purpose
+## 🎯 هدف پروژه
 
-This project was created to practice and improve frontend development skills, with a focus on:
+این پروژه با هدف تمرین و تقویت مهارت‌های توسعه فرانت‌اند ساخته شده است.
 
-* Building responsive layouts
-* Writing semantic HTML
-* Styling interfaces with CSS
-* Adding interactivity with JavaScript
-* Recreating a real-world e-commerce interface
+تمرکز اصلی بر موارد زیر بوده است:
 
-## 📦 Getting Started
+- طراحی چیدمان‌های واکنش‌گرا
+- استفاده از HTML معنایی
+- طراحی و استایل‌دهی با CSS
+- ایجاد تعامل با JavaScript
+- بازسازی رابط کاربری یک فروشگاه اینترنتی واقعی
 
-### Clone the repository
+## 📦 راه‌اندازی پروژه
 
-```bash
+### ۱. دریافت پروژه از گیت‌هاب
+
+```bash id="m1x7rj"
 git clone https://github.com/amirvp77/digi-kala.git
 ```
 
-### Open the project
+### ۲. ورود به پوشه پروژه
 
-Navigate to the project directory:
-
-```bash
+```bash id="t2cq7v"
 cd digi-kala
 ```
 
-Then open the project using your preferred local development server.
+### ۳. اجرای پروژه
 
-## 🌐 Deployment
+پروژه را با استفاده از یک سرور توسعه محلی دلخواه اجرا کنید.
 
-The project is deployed using **Cloudflare Pages**.
+## 🌐 انتشار پروژه
 
-**Live Website:**
+این پروژه با استفاده از **Cloudflare Pages** منتشر شده است.
+
+**لینک سایت:**
+
 https://digi-kala.pages.dev/
 
-## 👨‍💻 Author
+## 👨‍💻 توسعه‌دهنده
 
 **Amir Valipour**
 
-GitHub: [@amirvp77](https://github.com/amirvp77)
+گیت‌هاب: [@amirvp77](https://github.com/amirvp77)
